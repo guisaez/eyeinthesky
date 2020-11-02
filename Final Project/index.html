@@ -1,7 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eye in the Sky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+          $("#desktopmenu").slicknav({
+              prependTo: "#mobilemenu"
+          });
+      });
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
 
 
-aloha
+<body>
+    <header>
+        <h1>Eye in the Sky Media</h1>
+        <nav id="mobilemenu"></nav>
 
-Click whee it says 
-Chat Channels 
-    Session Chat
+        <nav id="desktopmenu">
+            <ul>
+                <li>
+                    <a href="#kevin-bio">About Kevin Littlewood</a>                    
+                </li>
+                <li>
+                    <a href="#stephen-bio">About Stephen Blain</a>                    
+                </li>
+                <li>
+                    <a href="#all-artwork">Our Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="left-arrow">Left arrow here</section>
+    <section class="right-arrow">Right arrow here</section>
+
+    <main>
+        <section class="drone-photo1"><img src="dronephoto1.jpg" alt="Photo taken by drone"></section>
+        <section class="drone-photo2"><img src="dronephoto2.jpg" alt="Photo taken by drone"></section>
+        <section class="drone-photo3"><img src="dronephoto3.jpg" alt="Photo taken by drone"></section>
+        <section class="drone-photo4"><img src="dronephoto4.jpg" alt="Photo taken by drone"></section>
+    </main>
+
+    <section class="kevin-bio">
+        <a id="kevin-bio"><p class="Fredericka-font">Kevin Littlewood</p></a>
+        <div class="line"></div>
+        <p class="small-Fredericka-font">Aerial Photographer</p>
+        <p>[bio here]</p>
+    </section>
+    <section class="stephen-bio">
+        <a id="stephen-bio"><p class="Fredericka-font">Stephen Blain</p></a>
+        <div class="line"></div>
+        <p class="small-Fredericka-font">Aerial Photographer</p>
+        <p>[bio here]</p>
+    </section>
+    
+    <section class="all-artwork">
+        <a id="all-artwork"><p>If you can imagine any of our artwork displayed in your home or business,
+        don’t hesitate to contact us for pricing!</p></a>
+        [email here]<br>[phone # here]<br>
+        <div>
+            <img src="https://drive.google.com/file/d/1kLQ3fFDOA_rtuCuz2yyTdPmyOAGCr2pH/view?usp=sharing">
+        </div>
+    </section>
+    
+
+    <footer>[email here] [phone # here]</footer>
+</body>
+
+</html>
