@@ -10,7 +10,7 @@ html {
 
 body {
     display: grid;
-    grid-template-rows: 100px 600px 300px 300px 500px 100px;
+    grid-template-rows: 100px 600px 300px 300px 550px 100px;
     grid-template-columns: 10% 80% 10%;
     /* height: 100vh; */
     width: 100vw;
@@ -210,6 +210,24 @@ section {
     font-family: "Fredericka the Great";
     font-size: 1.5rem;
 }
+
+bios {
+    width: 60%;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: left;
+    /* display: flex;
+    justify-content: center; */
+}
+
+bios p::first-line {
+    text-indent: 1.5em;
+}
+
+/* bios p {
+    text-align: left;
+} */
 
 .all-artwork {
     grid-row: 6/7;
