@@ -7,6 +7,11 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+}
+
+/* Home Page CSS Styling */
+
+.home_page{
     background-image: url('dronephoto1b&w.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +59,6 @@ body {
 }
 
 .container nav ul li {
-    
     list-style-type: none;
     flex-grow: 1;
     text-align: center;
@@ -79,14 +83,30 @@ body {
     width: 110px;
     justify-content: space-evenly;
     justify-self: center;
+    height: 40px;
 }
 
 .icon-container a {
     text-decoration: none;
     color: rgba(255,255,255,1);
+    height: min-content;
 }
 
 
 .icon-container a:hover {
     color: rgba(168,122,162,1);
+}
+
+/* End of Home Page CSS Styling */
+
+/* Portfolio Page CSS Styling */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.content-container {
+    grid-column: 2 / 3;
+    background-color: lightgray
 }
