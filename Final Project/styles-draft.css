@@ -12,7 +12,7 @@ body {
 /* Home Page CSS Styling */
 
 .home_page{
-    background-image: url('dronephoto1b&w.jpeg');
+    background-image: url('dronephoto1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -67,7 +67,7 @@ body {
 
 .container nav ul li a {
     text-decoration: none;
-    color: rgba(42,36,41,1);
+    color: rgba(0,0,0,1);
 }
 
 .container nav ul li a:hover {
@@ -75,14 +75,13 @@ body {
 }
 
 .icon-container {
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
+    position: abso
     text-align: center;
     font-size: 40px;
     display: flex;
     width: 110px;
     justify-content: space-evenly;
-    justify-self: center;
+    justify-self: baseline;
     height: 40px;
 }
 
