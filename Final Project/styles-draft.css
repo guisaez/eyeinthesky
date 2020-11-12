@@ -27,30 +27,31 @@ body {
     grid-column: 2 / 3;
     justify-content: center;
     align-items: center;
-    border-top: 20px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    background-color: rgba(179,179,170,0.7);
+    margin-top: 9px;
+    background-color: rgba(179,179,170,0.40);
     border-radius: 10px;
     border: 3px solid black;
 }
 
 .container header {
-    grid-row: 1 / 2;
     text-align: center;
     color: rgba(19,12,18,1);
     font-family: "Fredericka the Great";
     font-weight: bold;
-    font-size: 20pt
+    font-size: 22pt;
+}
+
+.container header h1 {
+    margin-bottom: 20px;
 }
 
 .container header h2 {
     margin: 0 auto;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 .container nav {
-    grid-row: 2 / 3;
+   margin: 30px;
 }
 
 .container nav ul {
@@ -75,8 +76,8 @@ body {
 }
 
 .container nav ul li a:hover {
-    color: rgba(37, 111, 172, 0.8); 
-    box-shadow: 0 2px 0 0 rgba(37, 111, 172, 0.8);
+    color: rgba(205,77,47, 1); 
+    box-shadow: 0 2px 0 0 rgba(205,77,47, 1);
 }
 
 .icon-container {
@@ -102,9 +103,8 @@ body {
     width: 40px;
 }
 
-
 .icon-container a i:hover {
-    color: black;
+    color: rgba(205,77,47, 1);
 }
 
 /* End of Home Page CSS Styling */
@@ -118,6 +118,28 @@ body {
 
 .content-container {
     grid-column: 2 / 3;
-    background-color: lightgray
+    background-color: lightgray;
 }
 
+.portfolio-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 66% 34%;
+}
+
+.portfolio-h2 {
+    
+}
+
+.portfolio-nav {
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+.portfolio-nav ul {
+    list-style-type: none;
+}
+
+.gray {
+    color: gray;
+}
