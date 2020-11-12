@@ -17,21 +17,22 @@ body {
     background-repeat: no-repeat;
 
     display: grid;
-    grid-template-columns: 1fr 2fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
 }
 
 .container {
-    grid-row: 2 / 3;
-    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px 10px 15px;
+    border-top: 20px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: rgba(179,179,170,0.7);
-    border-radius: 10px
+    border-radius: 10px;
+    border: 3px solid black;
 }
 
 .container header {
@@ -40,12 +41,12 @@ body {
     color: rgba(19,12,18,1);
     font-family: "Fredericka the Great";
     font-weight: bold;
-    font-size: 12pt
+    font-size: 20pt
 }
 
 .container header h2 {
     margin: 0 auto;
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 .container nav {
@@ -119,3 +120,4 @@ body {
     grid-column: 2 / 3;
     background-color: lightgray
 }
+
