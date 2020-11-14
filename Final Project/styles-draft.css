@@ -108,7 +108,18 @@ body {
 }
 
 #language {
-    
+    position: relative;
+}
+
+.language-options {
+    display: none;
+}
+
+#language:hover .language-options {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 70px;
 }
 
 /* End of Home Page CSS Styling */
