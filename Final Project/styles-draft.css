@@ -122,6 +122,31 @@ body {
     right: 70px;
 }
 
+@media (max-width: 900px) {
+    .icon-container {
+        flex-flow: column nowrap;
+        right: 0px;
+        left: 10px;
+        top: 60px;
+    }
+
+    .container nav ul {
+        flex-flow: column nowrap;
+    }
+
+    .container {
+        width: 150%;
+    }
+
+    .container header h1 {
+        font-size: 25px;
+    }
+
+    .container header h2 {
+        font-size: 20px;
+    }
+}
+
 /* End of Home Page CSS Styling */
 
 /* Portfolio Page CSS Styling */
