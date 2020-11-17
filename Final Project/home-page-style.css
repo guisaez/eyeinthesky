@@ -83,11 +83,11 @@ body {
 .icon-container {
     position: absolute;
     top: 45px;
-    right: 70px;
+    right: 35px;
     text-align: center;
     font-size: 40px;
     display: flex;
-    width: 155px;
+    width: 190px;
     justify-content: space-evenly;
     justify-self: baseline;
     height: 40px;
@@ -103,49 +103,83 @@ body {
     width: 40px;
 }
 
-.icon-container a i:hover {
-    color: rgba(205,77,47, 1);
+.icon:hover {
+    color: rgba(205,77,47,1)
 }
 
-#language {
+.language-dropdown {
+    display: flex;;
+    align-items: center;
     position: relative;
 }
 
-.language-options {
+.languages {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    color: whitesmoke;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+.language-items {
     display: none;
+    position: relative;
+    padding-right: 4px;
 }
 
-#language:hover .language-options {
-    display: block;
-    position: absolute;
-    top: 50px;
-    right: 70px;
+.languages:hover ~ .language-items {
+    display: inline;
 }
 
-@media (max-width: 900px) {
+.languages:hover {
+    color: rgba(205,77,47, 1)
+}
+
+.language-items:hover {
+    display: inline;
+}
+
+@media (max-width: 320px) {
+    .container {
+        position: absolute;
+        max-width: 285px;
+        left: 14px;
+        top: 40px;
+        display: block;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
     .icon-container {
         flex-flow: column nowrap;
         right: 0px;
         left: 10px;
         top: 60px;
     }
-
+    
     .container nav ul {
         flex-flow: column nowrap;
     }
 
-    .container {
-        width: 150%;
-    }
-
     .container header h1 {
-        font-size: 25px;
+        font-size: 90%;
     }
 
     .container header h2 {
-        font-size: 20px;
+        font-size: 52%;
+    }
+
+    .container nav ul li {
+        font-size: 80%;
+    }
+
+    .container nav ul {
+        display: flex;
     }
 }
+
 
 /* End of Home Page CSS Styling */
 
