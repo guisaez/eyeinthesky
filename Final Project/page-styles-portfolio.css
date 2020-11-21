@@ -10,19 +10,82 @@ body {
     height: 100%;
     margin: 0;
     background-color: black;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 100px 500px 100px 500px 100px 500px;
-
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 100px 500px 100px 500px 100px 500px; */
 }
 
 header {
-    grid-row: 1/2;
-    grid-column: 2/3;
+    /* grid-row: 1/2;
+    grid-column: 2/3; */
     text-align: center;
     color: white;
 }
 
-.nav {
-    grid-row: 2/3;
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.nav-container {
+    /* grid-row: 2/3;
+    grid-column: 2/3 !important; */
+    display: flex;
+    justify-content: center !important;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.nav-tabs {
     grid-column: 2/3;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.ocean-photo-carousel {
+    margin-top: 50px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.links-to-all-images {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+footer {
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+.footer-bar {
+    background-color: white;
+    height: 5px;
+    width: 80%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+footer p {
+    margin-top: 50px;
+    font-size: 1.5rem;
 }
