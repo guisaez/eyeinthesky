@@ -1,5 +1,3 @@
-/* Portfolio Page CSS Styling */
-
 html {
     width: 100vw;
     height: 100vh;
@@ -56,23 +54,6 @@ a:hover {
     background-color: black !important;
 }
 
-.ocean-photo-carousel {
-    margin-top: 50px;
-}
-
-.center {
-    margin: 0 auto;
-}
-
-.links-to-all-images {
-    margin: 0 auto;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    font-size: 2rem;
-}
-
 footer {
     height: 300px;
     color: white;
@@ -94,41 +75,3 @@ footer p {
     font-size: 1.5rem;
     font-family: 'Vollkorn', serif;
 }
-
-/* portfolio-ocean-usa & portfolio-mountain-usa formatting starts here */
-
-.photo-section-title {
-    font-family: 'Vollkorn', serif;
-    font-size: 4rem;
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
-
-main {
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-    width: 80%;
-    height: 500px;
-    overflow: auto;
-    border: 5px solid white;
-    font-family: 'Vollkorn', serif;
-}
-
-main img {
-    max-height: 250px;
-    width: auto;
-    margin: 10px;
-}
-
-.tagline {
-    color: white;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Vollkorn', serif;
-}
-
