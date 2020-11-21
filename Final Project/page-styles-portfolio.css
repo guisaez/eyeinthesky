@@ -23,10 +23,12 @@ header {
 
 h1 {
     font-size: 5rem;
+    font-family: "Fredericka the Great", serif
 }
 
 h2 {
     font-size: 3rem;
+    font-family: "Fredericka the Great", serif
 }
 
 .nav-container {
@@ -37,14 +39,12 @@ h2 {
     color: white;
     margin-top: 50px;
     font-size: 1.5rem;
-}
-
-.nav-tabs {
-    grid-column: 2/3;
+    font-family: 'Vollkorn', serif;
 }
 
 a {
     color: white;
+    font-family: 'Vollkorn', serif;
 }
 
 a:hover {
@@ -88,9 +88,19 @@ footer {
 footer p {
     margin-top: 50px;
     font-size: 1.5rem;
+    font-family: 'Vollkorn', serif;
 }
 
-/* portfolio-ocean-usa formatting starts here */
+/* portfolio-ocean-usa & portfolio-mountain-usa formatting starts here */
+
+.photo-section-title {
+    font-family: 'Vollkorn', serif;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
 
 main {
     margin: 0 auto;
@@ -100,6 +110,7 @@ main {
     height: 500px;
     overflow: auto;
     border: 5px solid white;
+    font-family: 'Vollkorn', serif;
 }
 
 main img {
@@ -112,5 +123,11 @@ main img {
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Vollkorn', serif;
+}
+
+.dropdown-menu .active {
+    background-color: black !important;
 }
