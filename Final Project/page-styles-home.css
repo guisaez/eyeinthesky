@@ -114,6 +114,10 @@ html {
     margin-left: 8px;
 }
 
+.languages:hover {
+    color: white;
+}
+
 .lang-items {
     visibility: hidden;
 }
