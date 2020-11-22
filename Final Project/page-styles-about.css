@@ -104,7 +104,7 @@ main p::first-line {
 
 .about-page-flex-img-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .links-to-bios img {
