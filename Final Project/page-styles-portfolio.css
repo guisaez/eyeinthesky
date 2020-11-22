@@ -90,9 +90,11 @@ footer {
 }
 
 footer p {
+    margin: 0 auto;
     margin-top: 50px;
     font-size: 1.5rem;
     font-family: 'Vollkorn', serif;
+    max-width: 90%;
 }
 
 /* portfolio-ocean-usa & portfolio-mountain-usa formatting starts here */
