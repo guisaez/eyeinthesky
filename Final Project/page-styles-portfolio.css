@@ -71,11 +71,15 @@ a:hover {
     margin: 0 auto !important;
     width: auto !important;
     height: auto !important;
-    max-width: 80% !important;
+    max-width: 75% !important;
     /* for the alt text: */
     color: white;
     font-family: "Vollkorn", serif;
 }
+
+/* iframe {
+
+} */
 
 .links-to-all-images {
     margin: 0 auto;
