@@ -68,14 +68,15 @@ main {
     margin-top: 20px;
 }
 
-.overview {
+main p {
     color: white;
     text-align: left;
     font-family: "Vollkorn", serif;
     font-size: 1.5rem;
+    margin: 10px;
 }
 
-.overview::first-line {
+main p::first-line {
     text-indent: 1.5em;
 }
 
@@ -127,4 +128,39 @@ footer p {
     margin-top: 50px;
     font-size: 1.5rem;
     font-family: 'Vollkorn', serif;
+}
+
+/* Here starts the styling for the about-kevin and about-stephen pages */
+
+.kevin-bio-box {
+    margin-top: 50px;
+    border: 10px solid white;
+}
+
+.kevin-bio-title {
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+.bio-bar {
+    background-color: white;
+    height: 5px;
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    /* margin-top: 5px; */
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main img {
+    max-height: 150px;
+    display: inline-block;
 }
