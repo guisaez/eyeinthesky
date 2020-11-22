@@ -135,12 +135,12 @@ footer p {
 
 /* Here starts the styling for the about-kevin and about-stephen pages */
 
-.kevin-bio-box {
+.bio-box {
     margin-top: 50px;
     border: 10px solid white;
 }
 
-.kevin-bio-title {
+.bio-title {
     margin-bottom: 5px;
     margin-top: 20px;
     color: white;
@@ -167,7 +167,6 @@ footer p {
 
 main img {
     max-height: 150px;
-    /* display: inline-block; */
     float: left;
     margin: 10px;
 }
