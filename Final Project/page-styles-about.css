@@ -54,6 +54,47 @@ a:hover {
     background-color: black !important;
 }
 
+h4 {
+    color: white;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 4rem;
+    margin-top: 70px;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.overview {
+    color: white;
+    text-align: left;
+    font-family: "Vollkorn", serif;
+    font-size: 1.5rem;
+}
+
+.overview::first-line {
+    text-indent: 1.5em;
+}
+
+.links-to-bios {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 30% 70%;
+}
+
+.kevin-bio-link {
+    grid-row: 1/2;
+    grid-column:
+}
+
+.stephen-bio-link {
+
+}
+
+
 footer {
     height: 300px;
     color: white;
