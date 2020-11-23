@@ -193,7 +193,7 @@ main img {
     min-width: 150px;
 }
 
-@media (max-width: 447px) {
+@media (max-width: 550px) {
     header {
         margin-top: 30px;
     }
@@ -233,7 +233,7 @@ main img {
         height:  170px;
     }
     footer p{
-        font-size: 13pt;
+        font-size: 14pt;
     }
 }
 
@@ -242,3 +242,5 @@ main img {
         font-size: 11pt;
     }
 }
+
+
