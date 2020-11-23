@@ -168,3 +168,41 @@ section {
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 736px) {
+    header {
+        margin-top: 30px;
+    }
+    header h1 {
+        font-size: 40pt;
+    }
+
+    header h2 {
+        font-size: 32pt;
+    }
+
+    .links-to-all-images a {
+        font-size: 16pt;
+    }
+
+    footer p{
+        font-size: 14pt;
+    }
+
+    .carousel-inner a {
+        width: 40px;
+    }
+
+    .ocean-photo-carousel {
+        display: inline;
+        position: relative;
+        top: 18px;
+    }
+}
+
+
+@media (max-width: 490px) {
+    .nav-link {
+        font-size: 11pt;
+    }
+}
