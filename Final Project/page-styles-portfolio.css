@@ -125,10 +125,10 @@ main {
     margin: 0 auto;
     margin-top: 30px;
     padding: 10px;
-    width: 80%;
+    width: 70%;
     height: 500px;
     overflow: auto;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     font-family: 'Vollkorn', serif;
 }
 
@@ -153,7 +153,7 @@ section {
     font-family: "Vollkorn", serif;
     margin: 0 auto;
     margin-top: 10px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
