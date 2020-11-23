@@ -130,9 +130,14 @@ footer {
 footer p {
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 1.5rem;
     font-family: 'Vollkorn', serif;
     max-width: 90%;
+}
+
+footer a {
+    text-decoration: underline;
 }
 
 /* Here starts the styling for the about-kevin and about-stephen pages */
