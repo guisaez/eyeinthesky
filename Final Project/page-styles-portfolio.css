@@ -58,17 +58,12 @@ a:hover {
 
 .ocean-photo-carousel {
     margin-top: 50px;
+    width: 60%;
 }
 
 .center {
     margin: 0 auto !important;
-    /* width: auto !important; */
-    /* height: auto !important; */
-
-
-    /* max-width: 75% !important; */
-    max-width: 5% !important;
-
+    max-width: 60% !important;
 
     /* for the alt text: */
     color: white;
