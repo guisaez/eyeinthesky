@@ -59,6 +59,7 @@ a:hover {
 .ocean-photo-carousel {
     margin-top: 50px;
     width: 60%;
+    min-width: 400px;
 }
 
 .center {
@@ -115,8 +116,10 @@ footer a {
     font-size: 4rem;
     text-align: center;
     color: white;
+    margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 0px;
+    max-width: 90%;
 }
 
 main {
@@ -149,9 +152,10 @@ figcaption {
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    margin: 0px;
     padding: 0px;
     font-family: 'Vollkorn', serif;
+    margin: 0 auto;
+    max-width: 90%;
 }
 
 section {

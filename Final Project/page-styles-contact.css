@@ -61,3 +61,7 @@ main p {
     font-size: 1.5rem;
     font-family: 'Vollkorn', serif;
 }
+
+main a {
+    text-decoration: underline;
+}
