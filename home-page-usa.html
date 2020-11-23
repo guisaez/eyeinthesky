@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eye in the Sky Media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/page-styles-home.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body class="home_page">
+    <div class="main_container">
+        <header>
+            <h1>
+                Eye in the Sky Media
+            </h1>
+            <h2>
+                Kevin Littlewood & Stephen Blain
+            </h2>
+        </header>
+        <nav class="main_navigation">
+            <ul>
+                <li>
+                    <a href="portfolio-page-usa.html" target="self">Portfolio</a>
+                </li>
+                <li>
+                    <a href="about-page-usa.html" target="self">About</a>
+                </li>
+                <li>
+                    <a href="contact-page-usa.html" target="self">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="icon-container">
+        <div class="language-dropdown">
+            <button onclick="myFunction()" class="languages">
+                <i class="fas fa-globe-americas fa-4x"></i>
+            </button>
+            <div id="language-items" class="lang-items">
+                <a href="home-page-usa.html" target="self"><img src="images/estados-unidos.png"></a>
+                <a href="home-page-esp.html" target="self"><img src="images/espana.png"></a>
+            </div>
+        </div>
+        <a class="icon" href="//www.instagram.com/eitsmedia/" target="blank">
+            <i class="fab fa-instagram fa-3x"></i>
+        </a>
+        <a class="icon" href="//www.facebook.com/KevinLittlewoodNC/" target="blank">
+            <i class="fab fa-facebook fa-3x"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = 
+            document.getElementById("language-items");
+            x.classList.toggle("language-items")
+        }
+    </script>
+</body>
+</html>
