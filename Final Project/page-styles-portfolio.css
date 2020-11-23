@@ -60,17 +60,10 @@ a:hover {
     margin-top: 50px;
 }
 
-.carousel-item {
-    margin: 0 auto !important;
-    height: 100% !important;
-    width: 100% !important;
-    /* max-width: 100% !important; */
-}
-
 .center {
     margin: 0 auto !important;
-    width: auto !important;
-    height: auto !important;
+    /* width: auto !important; */
+    /* height: auto !important; */
     max-width: 75% !important;
     /* for the alt text: */
     color: white;
@@ -128,7 +121,6 @@ main {
     width: 70%;
     height: 500px;
     overflow: auto;
-    /* border: 5px solid white; */
     font-family: 'Vollkorn', serif;
 }
 
