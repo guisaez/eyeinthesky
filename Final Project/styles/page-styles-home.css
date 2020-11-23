@@ -4,7 +4,7 @@ html {
 }
 
 .home_page {
-    background-image: url('dronephoto1.jpg');
+    background-image: url('background-image/dronephoto1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
