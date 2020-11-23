@@ -192,3 +192,38 @@ main img {
     margin: 10px;
     min-width: 150px;
 }
+
+@media (max-width: 447px) {
+    header {
+        margin-top: 30px;
+    }
+    header h1 {
+        font-size: 40pt;
+    }
+
+    header h2 {
+        font-size: 32pt;
+    }
+
+    h4 {
+        font-size: 24pt;
+    }
+
+    main p{
+        font-size: 13pt;
+    }
+
+    .bio-link-container a{
+        font-size: 12pt;
+    }
+
+    img[alt] {
+        font-size: 2pt;
+    }
+}
+
+@media (max-width: 490px) {
+    .nav-link {
+        font-size: 11pt;
+    }
+}
