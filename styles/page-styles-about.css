@@ -217,8 +217,11 @@ main img {
         font-size: 12pt;
     }
 
-    img[alt] {
-        font-size: 2pt;
+    section {
+        height:  170px;
+    }
+    footer p{
+        font-size: 13pt;
     }
 }
 
