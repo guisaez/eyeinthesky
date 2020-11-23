@@ -147,3 +147,13 @@ main img {
     font-family: 'Vollkorn', serif;
 }
 
+section {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Vollkorn", serif;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
