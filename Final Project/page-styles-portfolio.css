@@ -130,9 +130,10 @@ main {
 }
 
 main img {
-    max-height: 250px;
+    height: 250px;
     width: auto;
     margin: 10px;
+    /* max-width: 100%; */
 }
 
 .tagline {
