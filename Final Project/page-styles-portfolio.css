@@ -64,7 +64,12 @@ a:hover {
     margin: 0 auto !important;
     /* width: auto !important; */
     /* height: auto !important; */
-    max-width: 75% !important;
+
+
+    /* max-width: 75% !important; */
+    max-width: 5% !important;
+
+
     /* for the alt text: */
     color: white;
     font-family: "Vollkorn", serif;
@@ -133,13 +138,16 @@ main {
 
 main img {
     width: 100%;
-    /* max-width: 100%; */
 }
 
 main figure {
-    /* height: 250px; */
-    width: 40%;
+    width: 45%;
     margin: 10px;
+}
+
+figcaption {
+    color: white;
+    font-family: 'Vollkorn', serif;
 }
 
 .tagline {
