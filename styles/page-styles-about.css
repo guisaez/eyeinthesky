@@ -209,7 +209,19 @@ main img {
         font-size: 24pt;
     }
 
-    main p{
+    .bio-box {
+        width: 90vw;
+        border: 4px solid white;
+    }
+    .bio-box h1{
+        font-size: 20pt;
+    }
+
+    .bio-box h2 {
+        font-size: 13pt;
+    }
+
+    main p {
         font-size: 13pt;
     }
 
