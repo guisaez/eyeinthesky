@@ -198,6 +198,14 @@ section {
         position: relative;
         top: 18px;
     }
+
+    .photo-section-title {
+        font-size: 27pt;
+    }
+
+    .tagline {
+        font-size: 12pt;
+    }
 }
 
 
