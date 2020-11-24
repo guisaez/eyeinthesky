@@ -173,12 +173,17 @@ section {
     header {
         margin-top: 30px;
     }
+
     header h1 {
         font-size: 40pt;
     }
 
     header h2 {
         font-size: 32pt;
+    }
+
+    .nav-link {
+        font-size: 13pt;
     }
 
     .links-to-all-images a {
