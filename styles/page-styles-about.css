@@ -125,6 +125,7 @@ figcaption {
 .equipment {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .equipment figure {
@@ -137,7 +138,7 @@ figcaption {
 }
 
 .equipment figcaption {
-    margin: 0 auto;
+    text-align: center;
 }
 
 .photo-column {
@@ -257,9 +258,14 @@ main img {
         font-size: 12pt;
     }
 
-    section {
+    .links-to-bios {
         height:  170px;
     }
+
+    .equipment-header {
+        margin-top: 100px;
+    }
+
     footer p{
         font-size: 14pt;
     }
